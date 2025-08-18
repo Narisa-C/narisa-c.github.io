@@ -6,31 +6,28 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>"Welcome to My Place"</h1>
- <button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
 
-<p id="demo"></p>
+  <div class="container">
+    <!-- รูปภาพ -->
+    <img src="https://pics.craiyon.com/2023-08-26/8b3985513692466dbac03c31973073a5.webp" alt="A dog" class="profile-img" />
 
+    <h1>Welcome to My Place</h1>
 
-<script>
-document.getElementById("demo").innerHTML = "My nickname is Sugar. I'll give you the new experience of learning ENG which is sweet!";
-</script> 
-  
-  
-  
-  
-  <ul>
-    <li>my profile</li>
-    <li>my courses</li>
-    <li>my schedule</li>
-  </ul>
-  <a href="./aboutme.html">About Me</a>
-  <a href="http://google.com">Book Now</a>
-  
-      <img src="https://pics.craiyon.com/2023-08-26/8b3985513692466dbac03c31973073a5.webp" alt="A dog" />
-<p id="demo"></p>
-  
+    <p class="intro">
+      My nickname is Sugar. I'll give you the new experience of learning ENG which is sweet!
+    </p>
+
+    <button onclick="document.getElementById('demo').innerHTML = Date()">Click me to display Date and Time.</button>
+    <p id="demo"></p>
+
+    <ul class="menu">
+      <li>My Profile</li>
+      <li>My Courses</li>
+      <li>My Schedule</li>
+    </ul>
+
+    <a href="./aboutme.html" class="link-button">About Me</a>
+  </div>
+
 </body>
 </html>
