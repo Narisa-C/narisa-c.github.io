@@ -29,48 +29,49 @@ body {
   margin-bottom: 20px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-:root{
-  --base-color: #786a6a;
-  --base-variant: #e8e9ed;
-  --text-color: #edd1d1;
-  --secondary-text: #232738;
-  --primary-color: #3a435d;
-  --accent-color: #0071ff;
+/* จัดปุ่มดาร์กโหมด */
+root {
+  base-color: #786a6a;
+  base-variant: #e8e9ed;
+  text-color: #edd1d1;
+  secondary-text: #232738;
+  primary-color: #3a435d;
+  accent-color: #0071ff;
 }
-body.darkmode{
-  --base-color: #070b1d;
-  --base-variant: #101425;
-  --text-color: #ffffff;
-  --secondary-text: #a4a5b8;
-  --primary-color: #3a435d;
-  --accent-color: #0071ff;
+body.darkmode {
+  base-color: #070b1d;
+  base-variant: #101425;
+  text-color: #ffffff;
+  secondary-text: #a4a5b8;
+  primary-color: #3a435d;
+  accent-color: #0071ff;
 }
-*{
+ {
   margin: 0;
   padding: 0;
 }
-html{
+html {
   font-family: Poppins;
 }
-body{
+body {
   min-height: 100vh;
-  background-color: var(--base-color);
-  color: var(--text-color);
+  background-color: var(base-color);
+  color: var(text-color);
 }
-header, section{
+header, section {
   padding: 70px min(50px, 7%);
 }
-section{
-  background-color: var(--base-variant);
+section {
+  background-color: var(base-variant);
 }
-p{
+p {
   margin: 10px 0 20px 0;
-  color: var(--secondary-text);
+  color: var(secondary-text);
 }
-button{
+button {
   border: none;
   padding: .8em 2em;
-  background-color: var(--primary-color);
+  background-color: var(primary-color);
   color: white;
   border-radius: 4px;
   font: inherit;
@@ -78,15 +79,15 @@ button{
   font-weight: 500;
   cursor: pointer;
 }
-.cta-button{
-  background-color: var(--accent-color);
+.cta-button {
+  background-color: var(accent-color);
 }
-#theme-switch{
+#theme-switch {
   height: 50px;
   width: 50px;
   padding: 0;
   border-radius: 50%;
-  background-color: var(--base-variant);
+  background-color: var(base-variant);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,15 +95,15 @@ button{
   top: 20px;
   right: 20px;
 }
-#theme-switch svg{
-  fill: var(--primary-color);
+#theme-switch svg {
+  fill: var(primary-color);
 }
-#theme-switch svg:last-child{
+#theme-switch svg:last-child {
   display: none;
 }
-.darkmode #theme-switch svg:first-child{
+body.darkmode #theme-switch svg:first-child {
   display: none;
 }
-.darkmode #theme-switch svg:last-child{
+body.darkmode #theme-switch svg:last-child {
   display: block;
 }
