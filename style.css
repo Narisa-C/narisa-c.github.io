@@ -1,3 +1,26 @@
+body { font-family: 'Arial',
+  sans-serif; text-align: center;
+      margin-top: 100px;
+      background-color: #786a6a;
+      color: #edd1d1; 
+     } 
+ul { list-style-position: inside;
+    text-align: left; margin-top:auto;
+    color: cornsilk;
+   } 
+a[href] { color: pink;
+         text-decoration: underline;
+         text-align: center;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: large; margin-top: auto;
+        } 
+/* จัดรูปภาพ */ 
+.profile-img { width: 200px;
+              height: auto;
+              border-radius: 10px;
+              margin-bottom: 20px;
+              box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+             }
 :root {
   --base-color: #786a6a;
   --base-variant: #e8e9ed;
@@ -47,7 +70,7 @@ a, .cta-button {
 
 .cta-button {
   background-color: var(--accent-color);
-  color: white;
+  color: brown;
   padding: 10px 20px;
   border-radius: 5px;
   text-transform: uppercase;
@@ -92,3 +115,4 @@ body.darkmode #theme-switch svg:first-child {
 body.darkmode #theme-switch svg:last-child {
   display: block;
 }
+
