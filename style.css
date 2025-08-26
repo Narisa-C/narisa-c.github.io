@@ -30,14 +30,14 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 :root{
-  --base-color: white;
+  --base-color: #786a6a;
   --base-variant: #e8e9ed;
-  --text-color: #111528;
+  --text-color: #edd1d1;
   --secondary-text: #232738;
   --primary-color: #3a435d;
   --accent-color: #0071ff;
 }
-.darkmode{
+body.darkmode{
   --base-color: #070b1d;
   --base-variant: #101425;
   --text-color: #ffffff;
