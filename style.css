@@ -23,7 +23,7 @@ a[href] { color: PaleVioletRed;
              }
 :root {
   --base-color: #786a6a;
-  --base-variant: PeachPuff;
+  --base-variant: LightYellow;
   --text-color: #edd1d1;
   --secondary-text: #232738;
   --primary-color: #3a435d;
@@ -31,9 +31,9 @@ a[href] { color: PaleVioletRed;
 }
 
 body.darkmode {
-  --base-color: #E3B2A8;
-  --base-variant: #5C3027;
-  --text-color: lightpink;
+  --base-color: #69615f;
+  --base-variant: LightSteelBlue;
+  --text-color: RosyBrown;
   --secondary-text: #a4a5b8;
 }
 
@@ -62,6 +62,7 @@ ul {
 
 a, .cta-button {
   text-decoration: none;
+  color: brown;
   font-family: 'Arial', sans-serif;
   font-size: 1.1em;
   display: inline-block;
@@ -70,7 +71,7 @@ a, .cta-button {
 
 .cta-button {
   background-color: var(--accent-color);
-  color: brown;
+  color: Wheat;
   padding: 10px 20px;
   border-radius: 5px;
   text-transform: uppercase;
