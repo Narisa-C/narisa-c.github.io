@@ -32,8 +32,8 @@ a[href] { color: pink;
 
 body.darkmode {
   --base-color: gray;
-  --base-variant: #101425;
-  --text-color: #ffffff;
+  --base-variant: darkgray;
+  --text-color: lightpink;
   --secondary-text: #a4a5b8;
 }
 
