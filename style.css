@@ -8,7 +8,7 @@ ul { list-style-position: inside;
     text-align: left; margin-top:auto;
     color: cornsilk;
    } 
-a[href] { color: pink;
+a[href] { color: neonpink;
          text-decoration: underline;
          text-align: center;
          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -19,7 +19,7 @@ a[href] { color: pink;
               height: auto;
               border-radius: 10px;
               margin-bottom: 20px;
-              box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+              box-shadow: 0 4px 8px ivory;
              }
 :root {
   --base-color: #786a6a;
