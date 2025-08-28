@@ -31,7 +31,7 @@ a[href] { color: PaleVioletRed;
 }
 
 body.darkmode {
-  --base-color: gray;
+  --base-color: #E3B2A8;
   --base-variant: #5C3027;
   --text-color: lightpink;
   --secondary-text: #a4a5b8;
