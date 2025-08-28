@@ -7,7 +7,7 @@ body { font-family: 'Arial',
 
 ul { list-style-position: inside;
      text-align: left; 
-     margin-top:auto;
+     margin-top: auto;
      color: #F2F2F2;
    } 
 
@@ -37,7 +37,7 @@ a[href] { color: #F2F2F2; /* pale white */
 .darkmode{
   --base-color: #44444E; /*very dark gray*/
   --base-variant: #7F8CAA;
-  --text-color: #ffffff;
+  --text-color: #44444E;
   --secondary-text: #a4a5b8;
   --primary-color: #3a435d;
   --accent-color: #D6DAC8;
@@ -65,7 +65,7 @@ p{
   color: var(--secondary-text);
 }
 button{
-  border: dotted;
+  border: none;
   padding: .8em 2em;
   background-color: var(--accent-color);
   color: white;
@@ -92,7 +92,7 @@ button{
   right: 20px;
 }
 #theme-switch svg{
-  fill: none;
+  fill: var(--primary-color);
 }
 #theme-switch svg:last-child{
   display: none;
