@@ -6,9 +6,9 @@ body { font-family: 'Arial',
      } 
 ul { list-style-position: inside;
     text-align: left; margin-top:auto;
-    color: cornsilk;
+    color: PeachPuff;
    } 
-a[href] { color: neonpink;
+a[href] { color: PaleVioletRed;
          text-decoration: underline;
          text-align: center;
          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -23,7 +23,7 @@ a[href] { color: neonpink;
              }
 :root {
   --base-color: #786a6a;
-  --base-variant: #e8e9ed;
+  --base-variant: PeachPuff;
   --text-color: #edd1d1;
   --secondary-text: #232738;
   --primary-color: #3a435d;
@@ -32,7 +32,7 @@ a[href] { color: neonpink;
 
 body.darkmode {
   --base-color: gray;
-  --base-variant: darkgray;
+  --base-variant: #5C3027;
   --text-color: lightpink;
   --secondary-text: #a4a5b8;
 }
