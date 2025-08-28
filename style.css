@@ -11,7 +11,7 @@ ul { list-style-position: inside;
      color: PeachPuff;
    } 
 
-a[href] { color: PaleVioletRed;
+a[href] { color: #F2F2F2; /* pale white */
          text-decoration: underline;
          text-align: center;
          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -24,15 +24,15 @@ a[href] { color: PaleVioletRed;
               height: auto;
               border-radius: 10px;
               margin-bottom: 20px;
-              box-shadow: 0 4px 8px ivory;
+              box-shadow: 0 4px 8px ;
              }
 :root{
-  --base-color: #786a6a; /* cocao brown as default */
-  --base-variant: #e8e9ed;
-  --text-color: #111528;
-  --secondary-text: #232738;
-  --primary-color: #3a435d;
-  --accent-color: #4B4376;
+  --base-color: #7E6363; /* light cocao brown as default */
+  --base-variant: #A87C7C; /* nude pink */
+  --text-color: #3E3232; /* dark brown */
+  --secondary-text: #503C3C; /* medium brown */
+  --primary-color: #7E6363; /* same as BG */
+  --accent-color: #A87C7C; /* box - nude pink */
 }
 .darkmode{
   --base-color: #44444E; /*very dark gray*/
