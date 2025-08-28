@@ -6,15 +6,17 @@ body { font-family: 'Arial',
      } 
 
 ul { list-style-position: inside;
-    text-align: left; margin-top:auto;
-    color: PeachPuff;
+     text-align: left; 
+     margin-top:auto;
+     color: PeachPuff;
    } 
 
 a[href] { color: PaleVioletRed;
          text-decoration: underline;
          text-align: center;
          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-         font-size: large; margin-top: auto;
+         font-size: large;
+         margin-top: auto;
         } 
 
 /* จัดรูปภาพ */ 
@@ -33,7 +35,7 @@ a[href] { color: PaleVioletRed;
   --accent-color: #4B4376;
 }
 .darkmode{
-  --base-color: #333446;
+  --base-color: #44444E; /*very dark gray*/
   --base-variant: #7F8CAA;
   --text-color: #ffffff;
   --secondary-text: #a4a5b8;
