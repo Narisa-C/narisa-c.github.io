@@ -8,7 +8,7 @@ body { font-family: 'Arial',
 ul { list-style-position: inside;
      text-align: left; 
      margin-top:auto;
-     color: PeachPuff;
+     color: #F2F2F2;
    } 
 
 a[href] { color: #F2F2F2; /* pale white */
@@ -32,7 +32,7 @@ a[href] { color: #F2F2F2; /* pale white */
   --text-color: #3E3232; /* dark brown */
   --secondary-text: #503C3C; /* medium brown */
   --primary-color: #7E6363; /* same as BG */
-  --accent-color: #A87C7C; /* box - nude pink */
+  --accent-color: #D2665A; /* box - peach pink */
 }
 .darkmode{
   --base-color: #44444E; /*very dark gray*/
@@ -40,7 +40,7 @@ a[href] { color: #F2F2F2; /* pale white */
   --text-color: #ffffff;
   --secondary-text: #a4a5b8;
   --primary-color: #3a435d;
-  --accent-color: #7F8CAA;
+  --accent-color: #D6DAC8;
 }
 *{
   margin: 0;
