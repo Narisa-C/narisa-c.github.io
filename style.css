@@ -65,9 +65,9 @@ p{
   color: var(--secondary-text);
 }
 button{
-  border: none;
+  border: dotted;
   padding: .8em 2em;
-  background-color: var(--primary-color);
+  background-color: var(--accent-color);
   color: white;
   border-radius: 4px;
   font: inherit;
@@ -92,7 +92,7 @@ button{
   right: 20px;
 }
 #theme-switch svg{
-  fill: var(--primary-color);
+  fill: none;
 }
 #theme-switch svg:last-child{
   display: none;
