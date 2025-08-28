@@ -30,15 +30,15 @@ a[href] { color: PaleVioletRed;
   --text-color: #111528;
   --secondary-text: #232738;
   --primary-color: #3a435d;
-  --accent-color: #0071ff;
+  --accent-color: #4B4376;
 }
 .darkmode{
-  --base-color: #070b1d;
-  --base-variant: #101425;
+  --base-color: #333446;
+  --base-variant: #7F8CAA;
   --text-color: #ffffff;
   --secondary-text: #a4a5b8;
   --primary-color: #3a435d;
-  --accent-color: #0071ff;
+  --accent-color: #7F8CAA;
 }
 *{
   margin: 0;
